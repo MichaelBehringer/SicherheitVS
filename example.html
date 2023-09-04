@@ -11,7 +11,7 @@
   <div id="content"></div>
 
   <script>
-    var userInput = "Hallo, <script>alert('XSS-Angriff!');</script>";
+    var userInput = "bösartiger Code";
     var contentDiv = document.getElementById("content");
     contentDiv.innerHTML = userInput;
   </script>
